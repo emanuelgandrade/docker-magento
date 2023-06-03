@@ -12,13 +12,6 @@
 
 version: "3"
 
-deploy:
-  resources:
-    limits:
-      memory: 6G
-    reservations:
-      memory: 6G
-
 services:
   app:
     image: markoshust/magento-nginx:1.18-8
